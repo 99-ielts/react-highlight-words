@@ -17,7 +17,8 @@
     "postpublish": "npm run deploy",
     "start": "webpack-dev-server --hot --inline --config webpack.config.dev.js",
     "test": "cross-env NODE_ENV=test karma start",
-    "watch": "watch 'clear && npm run lint -s && npm run test -s' src"
+    "watch": "watch 'clear && npm run lint -s && npm run test -s' src",
+    "postinstall": "cd node_modules/highlight-words-core && yarn && yarn build"
   },
   "repository": {
     "type": "git",
