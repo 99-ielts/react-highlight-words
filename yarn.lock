@@ -2471,7 +2471,7 @@ he@1.0.x:
 
 "highlight-words-core@https://github.com/99-ielts/highlight-words-core.git":
   version "1.2.3"
-  resolved "https://github.com/99-ielts/highlight-words-core.git#93b1de9aa7cd851cb7a05585aeda2d192f96d28e"
+  resolved "https://github.com/99-ielts/highlight-words-core.git#260ca95cbe4d3baed798ae6b8dc2eaa0c36be09d"
 
 hoek@0.9.x:
   version "0.9.1"
