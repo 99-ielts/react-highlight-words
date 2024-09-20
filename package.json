@@ -17,7 +17,8 @@
     "postpublish": "npm run deploy",
     "start": "webpack-dev-server --hot --inline --config webpack.config.dev.js",
     "test": "cross-env NODE_ENV=test karma start",
-    "watch": "watch 'clear && npm run lint -s && npm run test -s' src"
+    "watch": "watch 'clear && npm run lint -s && npm run test -s' src",
+    "prepare": "yarn build"
   },
   "repository": {
     "type": "git",
